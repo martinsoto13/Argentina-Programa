@@ -1,5 +1,29 @@
 /** esto es un comentario en CSS */
-p{
+*{
+    color: blue;
+}
+p, span{
     color: red;
     width: 300px;
+}
+h1{
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    border: 10px solid black;
+    margin: 30px;
+    padding: 15px 15px 12px 16px;
+}
+/** usando selectores id*/
+#mi_parrafo{
+    color: rebeccapurple;
+    border: 10px solid black;
+    margin: 30px;
+    padding: 15px 15px 12px 16px; 
+}
+/** usando selectores class*/
+.estaesmiclase{
+    color: fuchsia;
+    border: 10px solid black;
+    margin: 30px;
+    padding: 15px 15px 12px 16px;
 }
